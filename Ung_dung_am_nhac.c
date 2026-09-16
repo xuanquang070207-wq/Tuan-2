@@ -17,10 +17,10 @@ void get_string(string s){ //Nhan thong tin tu ban phim
     s[i]='\0';
 }
 void print_string(string s){ // In string
-    i=0;
+    int i=0;
     while(1) {
         if(s[i]!='\n'){
-        printf("%c",s[i])
+        printf("%c",s[i]);
         }
         else {
             break;
@@ -42,5 +42,5 @@ struct song {
     string genre; // the loai
     int like; // luot thich
     int views; // luot nghe
-}
+};
 
