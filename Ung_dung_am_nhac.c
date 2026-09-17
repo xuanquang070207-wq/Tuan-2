@@ -33,7 +33,11 @@ void print_string(string s){ // In string
 struct user {
     string ID_user;
     string data_fav_songs[100]; // Danh sach cac bai hat yeu thich
+    int num_fav_songs;
     string data_history_songs[100]; //Cac bai hat da nghe
+    int num_history_songs;
+    bool push_like; // tang luot like 1 bai hat
+    bool push_song; // tang luot nghe 1 bai hat
 };
 struct song {
     string ID_song;
